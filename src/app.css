@@ -1,0 +1,82 @@
+
+form{
+  width: 600px;
+  margin: auto;
+  display: flex;
+  background-color: rgb(250, 210, 162);
+  
+}
+form input{
+  flex-basis: 80%;
+  height: 25px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+form button{
+  flex-basis: 11%;
+  height: 30px;
+  margin-left: 20px;
+  background-color: #f20a0a;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+.outerDiv{
+  width: 1170;
+  margin: auto;
+  background-color: rgb(250, 210, 162);
+}
+.outerDiv ul{
+  margin: auto;
+  margin-top: 50px;
+  padding: 0px;
+  list-style: none;
+  width: 600px;
+  height: 30px;
+  
+}
+.outerDiv ul li{
+  color: white;
+  padding: 08px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  background-color: black;
+  border-radius: 10px;
+  height: 18px;
+}
+.outerDiv ul li span{
+  right: 20px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.completetodo{
+  text-decoration: line-through;
+  background-color: rgba(35, 32, 32, 0.734) !important;
+}
+.container{
+  background-color: rgb(250, 210, 162);
+  height: 640px;
+  width: 700px;
+  margin: auto;
+}
+.heading{
+  margin:auto;
+  padding-top: 10px;
+  padding-left: 85px;
+  padding-bottom: px;
+}
+hr{
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin: 15px 0;
+}
+span{
+  color: red;
+  font-size: large;
+  font-weight: bolder;
+  background-color: black;
+}

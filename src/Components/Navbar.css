@@ -1,0 +1,25 @@
+/* src/Navbar.css */
+.navbar {
+    background-color: red;
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    margin: 1px 45px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
